@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+ 
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    margin:20px;
+    border: 5px solid black;
+}
+
+.c1{
+    background-color: #93beea;
+}
+.c2{
+    background-color: #2d4093;
+}
+.c3{
+    background-color: #8d8cd7;
+}
+.c4{
+    background-color: #2c6387;
+}
