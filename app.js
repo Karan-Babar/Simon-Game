@@ -36,3 +36,13 @@ function levelUp() {
    console.log(randBtn);
    btnFlash(randBtn);
 }
+
+function btnPress() {
+    let btn = this;
+    btnFlash(btn);
+} 
+
+let allBtns = document.querySelectorAll(".btn");
+for(btn of allBtns){
+    btn.addEventListener("click", btnPress);
+}
