@@ -1,3 +1,5 @@
+let bestScoreAllTime = localStorage.getItem("bestScore") || 0;
+
 let gameSeq = [];
 let userSeq = [];
 
@@ -36,13 +38,23 @@ function levelUp() {
    level++;
    h2.innerText = `Level ${level}`;
 
-   let randIdx = Math.floor(Math.random() * 3);
+   let randIdx = Math.floor(Math.random() * 4);
    let randColor = btns[randIdx];
    let randBtn = document.querySelector(`.${randColor}`);
    gameSeq.push(randColor);
    console.log(gameSeq);
    btnFlash(randBtn);
 }
+
+function updateBestScore() {
+  let currentScore = level - 1;
+
+  if (currentScore > bestScoreAllTime) {
+    bestScoreAllTime = currentScore;
+    localStorage.setItem("bestScore", bestScoreAllTime);
+  }
+}
+
 
 function checkAns(idx) {
 
@@ -51,7 +63,9 @@ function checkAns(idx) {
           setTimeout(levelUp, 1000);
         }
     } else {
-        h2.innerHTML = `Game Over! Your score was <b>${level-1}<b> </br> Press any key to start.`;
+         updateBestScore();  
+
+        h2.innerHTML = `Game Over! Your score was <b>${level-1}<b> </br> Best Score <b>${bestScoreAllTime}<b> </br> Press any key to start.`;
         document.querySelector("body").style.backgroundColor = "red";
         setTimeout(function(){
           document.querySelector("body").style.backgroundColor = "white";
