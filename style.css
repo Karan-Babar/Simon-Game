@@ -2,9 +2,14 @@ body{
     text-align: center;
 }
 
+h1{
+    margin-bottom: -5px;
+    margin-top: 30px;
+}
 .btn-container{
     display: flex;
     justify-content: center;
+    margin-top: -20px;
 }
  
 .btn{
@@ -13,6 +18,7 @@ body{
     border-radius: 20%;
     margin:20px;
     border: 5px solid black;
+    cursor: pointer;
 }
 
 .c1{
@@ -34,4 +40,25 @@ body{
 
 .userflash{
     background-color: rgb(9, 241, 202);
+}
+
+iframe{
+    margin-bottom: 20px;
+}
+
+.btn-start{
+    height: 50px;
+    width: 120px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn-start:hover{
+    background-color: rgb(6, 97, 6);
 }

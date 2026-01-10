@@ -10,7 +10,9 @@ let level = 0;
 
 let h2 = document.querySelector("h2");
 
-document.addEventListener("keypress", function(){
+let startBtn = document.querySelector(".btn-start");
+
+startBtn.addEventListener("click", function(){
    if(started == false){
      console.log("game is started");
      started = true;
@@ -65,7 +67,7 @@ function checkAns(idx) {
     } else {
          updateBestScore();  
 
-        h2.innerHTML = `Game Over! Your score was <b>${level-1}<b> </br> Best Score <b>${bestScoreAllTime}<b> </br> Press any key to start.`;
+        h2.innerHTML = `Game Over! Your score was <b>${level-1}<b> </br> Best Score <b>${bestScoreAllTime}<b>`;
         document.querySelector("body").style.backgroundColor = "red";
         setTimeout(function(){
           document.querySelector("body").style.backgroundColor = "white";
