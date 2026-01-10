@@ -57,6 +57,11 @@ function updateBestScore() {
   }
 }
 
+function vibrateWrong() {
+  if ("vibrate" in navigator) {
+    navigator.vibrate([150, 70, 150]);
+  }
+}
 
 function checkAns(idx) {
 
@@ -66,6 +71,8 @@ function checkAns(idx) {
         }
     } else {
          updateBestScore();  
+
+         vibrateWrong();
 
         h2.innerHTML = `Game Over! Your score was <b>${level-1}<b> </br> Best Score <b>${bestScoreAllTime}<b>`;
         document.querySelector("body").style.backgroundColor = "red";
