@@ -1,3 +1,14 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn {
+  outline: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
 body{
     text-align: center;
 }
