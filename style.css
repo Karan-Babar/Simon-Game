@@ -62,3 +62,44 @@ iframe{
 .btn-start:hover{
     background-color: rgb(6, 97, 6);
 }
+
+@media (max-width: 900px) {
+   iframe{
+    width: 620px; 
+    height: 355px;
+   }
+}
+
+@media (max-width: 680px) {
+   iframe{
+    width: 520px; 
+    height: 305px;
+   }
+}
+
+@media (max-width: 580px) {
+    .btn{
+    height: 150px;
+    width: 150px;
+    margin:15px;
+    border: 4px solid black;
+    margin-top: 30px;
+    }
+
+    iframe{
+    width: 420px; 
+    height: 235px;
+   }
+
+   h1{
+    margin-bottom: -5px;
+    margin-top: 80px;
+}
+}
+
+@media (max-width: 480px) {
+    iframe{
+    width: 370px; 
+    height: 210px;
+   }
+}
