@@ -43,7 +43,7 @@ h1{
 }
 
 iframe{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .btn-start{
@@ -61,6 +61,17 @@ iframe{
 
 .btn-start:hover{
     background-color: rgb(6, 97, 6);
+}
+
+.footer{
+    display: flex;
+    height: 50px;
+    font-size: 15px;
+    margin: -8px;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 900px) {
@@ -101,5 +112,21 @@ iframe{
     iframe{
     width: 370px; 
     height: 210px;
+    margin-bottom: 30px;
    }
+
+   .btn-start{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    }
+
+    .footer{
+        height: 30px;
+        font-size: 10px;
+    }
 }
