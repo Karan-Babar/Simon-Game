@@ -1,10 +1,13 @@
 🎮 Simon Game – Web Project | JavaScript | Responsive Design
 
+
 I’m excited to share my Simon Game web project, built using HTML, CSS, and JavaScript.
 
 This project helped me strengthen my understanding of DOM manipulation, game logic, and mobile responsiveness.
 
+
 ✨ Features:
+
 ✅ Classic Simon Game logic with increasing difficulty
 
 ✅ Fully responsive design (mobile & desktop friendly)
@@ -21,6 +24,7 @@ This project helped me strengthen my understanding of DOM manipulation, game log
 
 
 🛠️ Tech Stack:
+
 HTML5
 
 CSS3 (Flexbox, Media Queries)
@@ -29,7 +33,9 @@ JavaScript (DOM, Events, LocalStorage, Vibration API)
 
 
 🌐 Live Project:
+
 🔗 Live Demo: https://your-live-link-here
+
 
 This project improved my problem-solving skills and gave me hands-on experience in building interactive web applications.
 
