@@ -1,6 +1,11 @@
 🎮 Simon Game – Web Project | JavaScript | Responsive Design
 
 
+🌐 Live Project:
+
+🔗 Live Demo: https://simon-game-eight-gilt.vercel.app/
+
+
 I’m excited to share my Simon Game web project, built using HTML, CSS, and JavaScript.
 
 This project helped me strengthen my understanding of DOM manipulation, game logic, and mobile responsiveness.
@@ -30,11 +35,6 @@ HTML5
 CSS3 (Flexbox, Media Queries)
 
 JavaScript (DOM, Events, LocalStorage, Vibration API)
-
-
-🌐 Live Project:
-
-🔗 Live Demo: https://your-live-link-here
 
 
 This project improved my problem-solving skills and gave me hands-on experience in building interactive web applications.
